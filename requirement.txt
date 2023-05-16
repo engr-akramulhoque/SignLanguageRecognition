@@ -1,0 +1,15 @@
+1.Dependences:
+
+tensorflow==2.8.1 
+tensorflow-gpu==2.8.1 
+opencv-python 
+mediapipe 
+sklearn 
+matplotlib
+
+2. To access External Webcam
+ #Enter value (1) for external webcam.
+
+3. link: https://stackoverflow.com/questions/69095372/attributeerror-module-mediapipe-python-solutions-holistic-has-no-attribute-f
+FACE_CONNECTIONS seems to be renamed/replaced by FACEMESH_TESSELATION
+Just the outlines of the face = FACEMESH_CONTOURS
